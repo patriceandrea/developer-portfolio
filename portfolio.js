@@ -1,8 +1,8 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Patrice Pavico",
+	title: "Hi! My name is Patrice. Welcome to my Portfolio",
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
 	resumeLink:
@@ -10,24 +10,22 @@ export const greetings = {
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "patriceandrea",
 };
 
 export const contact = {};
 
 export const socialLinks = {
+	//TODO: add your portfolio url 
 	url: "https://1hanzla100.github.io/",
 	linkedin: "https://www.linkedin.com/in/1hanzla100/",
-	github: "https://github.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
-	facebook: "https://www.facebook.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
+	github: "https://github.com/1hanzla100"
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"JUNIOR FULL STACK DEVELOPER WHO WANTS TO LEARN AND EXPLORE EVERY TECH STACK",
 	data: [
 		{
 			title: "Full Stack Development",
