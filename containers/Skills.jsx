@@ -50,9 +50,7 @@ const Skills = () => {
 									})}
 								</div>
 								<div>
-									{section.skills.map((skill, i) => {
-										return <p key={i}>{skill}</p>;
-									})}
+									{/* Remove Skills List  */}
 								</div>
 							</Fade>
 						</Col>
