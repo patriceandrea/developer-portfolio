@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Patrice Pavico",
 	title: "Hello, My name is Patrice. Welcome to my Portfolio!",
 	description:
-		"I'm passionate Full Stack web developer with a background in medical laboratory.I have experience with web applications with Javascript, NodeJS, Express, React.js, and SQL.",
+		"I'm a dedicated Full Stack web developer with a background in medical laboratory. I have experience with web applications with Javascript, NodeJS, Express, React.js, and SQL.",
 	resumeLink:
 		"https://resume.creddle.io/resume/gvdpcovwyzl",
 };
@@ -25,7 +25,7 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "Skills",
 	subTitle:
-		"JUNIOR FULL STACK DEVELOPER WHO WANTS TO LEARN AND EXPLORE EVERY TECH STACK",
+		"JUNIOR FULL STACK DEVELOPER READY TO LEARN AND EXPLORE EVERY TECH STACK",
 	data: [
 		{
 			title: "Programming Languages",
@@ -191,64 +191,62 @@ export const educationInfo = [
 			"A 3-month coding bootcamp specialized in web development",
 		],
 	},
+	{
+		schoolName: "Dawson College",
+		subHeader: "DEC in Biomedical Laboratory Technology",
+		duration: "August 2015 - May 2018",
+		descBullets: [],
+	},
 ];
 
 export const experience = [
 	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+		role: "Medical Technologist",
+		company: "Jewish General Hospital",
+		companylogo: "/img/icons/common/jgh.jpg",
+		date: "December 2018 – March 2022",
+		desc: "I worked as medical technologist in the Pathology & Cytology Department.",
 	},
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		role: "Medical Technologist/Phlebotomist",
+		company: "Mcgill University of Montreal",
+		companylogo: "/img/icons/common/muhc.png",
+		date: "June 2018 – December 2018",
+		desc: "I worked as a medical technologist at the test center where I drew blood from patients.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		// ],
-	},
-	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
-	},
+	}
 ];
 
 export const projects = [
 	{
-		name: "developer-portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Funko'd Store",
+		desc: "E-commerce store that sells popular Funko Pop figurines with NextJS. Checkout payments are used with Stripe (testing only).\nTech Stack: NextJs, Stripe, Sanity.io.",
+		github: "https://github.com/patriceandrea/Funko-d-store",
+		link: "https://funko-d-store.vercel.app/",
 	},
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
+		name: "Deliverr",
+		desc: "A Deliverro-clone Food Pick-Up mobile application using React Native. Tech Stack: React Native, Redux Toolkit, TailwindCSS, Expo, Sanity.io.",
+		github: "https://github.com/patriceandrea/deliverr",
+		link: "https://expo.dev/@patriceandrea/deliverr?serviceType=classic&distribution=expo-go"
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
+		name: "yelpCamp",
+		desc: "An application where users can share and review campgrounds. An interactive map to view each campground using MapBox. Tech Stack: Node, Express, MapBox, Mongoose.",
 		github: "https://github.com/1hanzla100/django-react-forum",
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		github: "https://github.com/1hanzla100/Django-ecommerce",
+		name: "TinyApp 2.0",
+		desc: "React Application that shortens long URLs. Tech Stack: React, Node, Express, Postgres, TypeScript, Material-UI. ",
+		github: "https://github.com/patriceandrea/yelpCamp",
+	},
+	{
+		name: "Thera-Match",
+		desc: "React Application where you can view and book an appointment with a therapist of your choosing using a swiping feature (similar to Tinder). User-friendly way to search for a therapist. Tech Stack: React, Node, Express, Postgres, Material-UI. ",
+		github: "https://github.com/patriceandrea/Thera-match",
 	},
 ];
 
@@ -270,19 +268,19 @@ export const showContactUs = true;
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Hanzla Tauqeer",
+	title: "Patrice Pavico",
 	description:
-		"A passionate Full Stack Web Developer and Blockchain Developer.",
+		"A passionate and dedicated Junior Full Stack Web Developer looking for her next opportunity in software development.",
 	author: "Hanzla Tauqeer",
 	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
 	url: "https://developer-portfolio-1hanzla100.vercel.app",
 	keywords: [
-		"Hanzla",
-		"Hanzla Tauqeer",
-		"@1hanzla100",
-		"1hanzla100",
+		"Patrice",
+		"Patrice Pavico",
+		"@patriceandrea",
+		"patriceandrea",
 		"Portfolio",
-		"Hanzla Portfolio ",
-		"Hanzla Tauqeer Portfolio",
+		"Patrice's Portfolio ",
+		"Patrice Pavico's Portfolio",
 	],
 }

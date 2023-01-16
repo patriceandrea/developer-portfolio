@@ -22,11 +22,14 @@ export default function Home({ githubProfileData }) {
       <Navigation />
       <Greetings />
       <Skills />
-      <Proficiency />
+      {/* <Proficiency /> */}
+      {/* not using the Proficiency portion */}
+      <Projects />
       <Education />
       <Experience />
-      <Feedbacks />
-      <Projects />
+      {/* not using the feedback portion */}
+      {/* <Feedbacks /> */}
+
       {showContactUs ? <Contact /> : null}
       <GithubProfileCard prof={githubProfileData} />
     </div>

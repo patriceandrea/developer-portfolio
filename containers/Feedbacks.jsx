@@ -15,16 +15,17 @@ const Feedbacks = () => {
 						</div>
 					</div>
 					<div className="pl-4">
-						<h4 className="display-3 text-info">
+						{/* <h4 className="display-3 text-info">
 							Our Clients Feedback
-						</h4>
+						</h4> */}
 					</div>
 				</div>
 				<Row className="row-grid align-items-center">
 					{feedbacks.map((data, i) => {
 						return (
 							<Col key={i} lg={6}>
-								<FeedbackCard data={data} />
+								{/* not using the feedback portion */}
+								{/* <FeedbackCard data={data} /> */}
 							</Col>
 						);
 					})}
