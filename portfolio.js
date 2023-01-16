@@ -18,8 +18,8 @@ export const contact = {};
 export const socialLinks = {
 	//TODO: add your portfolio url 
 	// url: "https://1hanzla100.github.io/",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
-	github: "https://github.com/1hanzla100"
+	linkedin: "https://www.linkedin.com/in/patrice-pavico-59012a163/",
+	github: "https://github.com/patriceandrea"
 };
 
 export const skillsSection = {
@@ -135,7 +135,7 @@ export const skillsSection = {
 		},
 		{
 			title: "Testing",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+			lottieAnimationFile: "/lottie/laptop-girl-2.json", // Path of Lottie Animation JSON File
 
 			softwareSkills: [
 				{
