@@ -4,6 +4,7 @@ import { Card, Col, Row, Container } from "reactstrap";
 
 import SocialLinks from "../components/SocialLinks";
 import Image from "next/image";
+import ContactUs from "./ContactUs";
 
 const GithubProfileCard = ({ prof }) => {
 	return (
@@ -35,6 +36,7 @@ const GithubProfileCard = ({ prof }) => {
 					</Row>
 				</div>
 			</Container>
+			<ContactUs />
 		</Card>
 	);
 };

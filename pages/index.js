@@ -30,7 +30,8 @@ export default function Home({ githubProfileData }) {
       {/* not using the feedback portion */}
       {/* <Feedbacks /> */}
 
-      {showContactUs ? <Contact /> : null}
+      {/* Contact component will inside the GithubProfileCard component */}
+      {/* {showContactUs ? <Contact /> : null} */}
       <GithubProfileCard prof={githubProfileData} />
     </div>
   );
