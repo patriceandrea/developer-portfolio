@@ -5228,6 +5228,18 @@ input[type="button"].btn-block {
 	padding: 1.5rem;
 }
 
+
+.card-body-img {
+	height: 12em;
+	width: 20em;
+}
+
+.card-body-img-phone {
+
+	height: 20em;
+	width: 12em;
+}
+
 .card-title {
 	margin-bottom: 1.25rem;
 }
@@ -19562,6 +19574,12 @@ textarea[resize="horizontal"] {
 
 .navbar-brand img {
 	height: 30px;
+	margin-bottom: -5em;
+	margin-left: -2.5em;
+}
+
+.navbar {
+	padding-left: 4.5em;
 }
 
 .navbar-dark .navbar-brand {

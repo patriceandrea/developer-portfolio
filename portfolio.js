@@ -2,6 +2,7 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: "Patrice Pavico",
+	image: "/img/icons/common/coding.png",
 	title: "Hello, My name is Patrice. Welcome to my Portfolio!",
 	description:
 		"I'm a dedicated Full Stack web developer with a background in medical laboratory. I have experience with web applications with Javascript, NodeJS, Express, React.js, and SQL.",
@@ -57,7 +58,7 @@ export const skillsSection = {
 		{
 			title: "Frameworks, Libraries & Environments",
 			// lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
-
+			lottieAnimationFile: "/lottie/laptop-girl-2.json",
 			softwareSkills: [
 
 				{
@@ -135,7 +136,7 @@ export const skillsSection = {
 		},
 		{
 			title: "Testing",
-			lottieAnimationFile: "/lottie/laptop-girl-2.json", // Path of Lottie Animation JSON File
+			// Path of Lottie Animation JSON File
 
 			softwareSkills: [
 				{
@@ -224,28 +225,33 @@ export const projects = [
 	{
 		name: "Funko'd Store",
 		desc: "E-commerce store that sells popular Funko Pop figurines with NextJS. Checkout payments are used with Stripe (testing only).\nTech Stack: NextJs, Stripe, Sanity.io.",
+		display: "/gif/funko_1.gif",
 		github: "https://github.com/patriceandrea/Funko-d-store",
 		link: "https://funko-d-store.vercel.app/",
 	},
 	{
 		name: "Deliverr",
 		desc: "A Deliverro-clone Food Pick-Up mobile application using React Native. Tech Stack: React Native, Redux Toolkit, TailwindCSS, Expo, Sanity.io.",
+		displayPhone: "/gif/adds-to-basket.gif",
 		github: "https://github.com/patriceandrea/deliverr",
 		link: "https://expo.dev/@patriceandrea/deliverr?serviceType=classic&distribution=expo-go"
 	},
 	{
 		name: "yelpCamp",
 		desc: "An application where users can share and review campgrounds. An interactive map to view each campground using MapBox. Tech Stack: Node, Express, MapBox, Mongoose.",
+		display: "/gif/yelpcamp-homepage.gif",
 		github: "https://github.com/1hanzla100/django-react-forum",
 	},
 	{
 		name: "TinyApp 2.0",
 		desc: "React Application that shortens long URLs. Tech Stack: React, Node, Express, Postgres, TypeScript, Material-UI. ",
+		display: "/gif/tinyapp-2.0.gif",
 		github: "https://github.com/patriceandrea/yelpCamp",
 	},
 	{
 		name: "Thera-Match",
 		desc: "React Application where you can view and book an appointment with a therapist of your choosing using a swiping feature (similar to Tinder). User-friendly way to search for a therapist. Tech Stack: React, Node, Express, Postgres, Material-UI. ",
+		display: "/gif/Thera-match.gif",
 		github: "https://github.com/patriceandrea/Thera-match",
 	},
 ];

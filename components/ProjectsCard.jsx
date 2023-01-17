@@ -13,6 +13,8 @@ const ProjectsCard = ({ data }) => {
 						<div className="d-flex px-3">
 							<div className="pl-4">
 								<h3>{data.name}</h3>
+								{data.display && <img className="card-body-img" src={data.display} />}
+								{data.displayPhone && <img className="card-body-img-phone" src={data.displayPhone} />}
 								<p className="description mt-3">{data.desc}</p>
 								{data.github ? (
 									<Button

@@ -38,7 +38,9 @@ const Navigation = () => {
 				>
 					<Container>
 						<NavbarBrand href="/" className="mr-lg-5">
+							<img src={greetings.image} />
 							<h2 className="text-white" id="nav-title">
+
 								{greetings.name}
 							</h2>
 						</NavbarBrand>
