@@ -13,11 +13,11 @@ const EducationCard = ({ education }) => {
 							<h5 className="text-info">
 								{education.schoolName}
 							</h5>
-								<h6>{education.subHeader}</h6>
+							<h6>{education.subHeader}</h6>
 							<Badge color="info" className="mr-1">
 								{education.duration}
 							</Badge>
-							{ education.grade && (
+							{education.grade && (
 								<Badge color="primary" className="mr-1">
 									{education.grade}
 								</Badge>
@@ -26,8 +26,8 @@ const EducationCard = ({ education }) => {
 							<ul>
 								{education.descBullets
 									? education.descBullets.map((desc) => {
-											return <li key={desc}>{desc}</li>;
-									  })
+										return <li key={desc}>{desc}</li>;
+									})
 									: null}
 							</ul>
 						</div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 // import { Link } from "react-router-dom";
 
-import { greetings, socialLinks } from "../portfolio";
+import { greetings, socialLinks, skillsSection, educationInfo, experience, projects, showContactUs } from "../portfolio";
 import Headroom from "headroom.js";
 import Link from "next/link";
 import {
@@ -83,38 +83,8 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
-								{socialLinks.facebook && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Facebook"
-											className="nav-link-icon"
-											href={socialLinks.facebook}
-											target="_blank"
-										>
-											<i className="fa fa-facebook-square" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Facebook
-											</span>
-										</NavLink>
-									</NavItem>
-								)}
-								{socialLinks.instagram && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Instagram"
-											className="nav-link-icon"
-											href={socialLinks.instagram}
-											target="_blank"
-										>
-											<i className="fa fa-instagram" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Instagram
-											</span>
-										</NavLink>
-									</NavItem>
-								)}
+
+								{/* 
 								{socialLinks.github && (
 									<NavItem>
 										<NavLink
@@ -146,20 +116,69 @@ const Navigation = () => {
 											</span>
 										</NavLink>
 									</NavItem>
-								)}
-								{socialLinks.twitter && (
+								)} */}
+								{skillsSection.title && (
 									<NavItem>
 										<NavLink
 											rel="noopener"
-											aria-label="Twitter"
+											aria-label="Github"
 											className="nav-link-icon"
-											href={socialLinks.twitter}
-											target="_blank"
+											href="#skills"
+											smooth
 										>
-											<i className="fa fa-twitter-square" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Twitter
-											</span>
+											<p>{skillsSection.title}</p>
+										</NavLink>
+									</NavItem>
+								)}
+								{projects && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Github"
+											className="nav-link-icon"
+											href="#projects"
+											smooth
+										>
+											<p>Projects</p>
+										</NavLink>
+									</NavItem>
+								)}
+								{educationInfo && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Github"
+											className="nav-link-icon"
+											href="#education"
+											smooth
+										>
+											<p>Education</p>
+										</NavLink>
+									</NavItem>
+								)}
+								{experience && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Github"
+											className="nav-link-icon"
+											href="#experience"
+											smooth
+										>
+											<p>Experience</p>
+										</NavLink>
+									</NavItem>
+								)}
+								{showContactUs && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Github"
+											className="nav-link-icon"
+											href="#contact"
+											smooth
+										>
+											<p>Contact</p>
 										</NavLink>
 									</NavItem>
 								)}

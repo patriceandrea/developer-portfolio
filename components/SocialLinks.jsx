@@ -76,7 +76,7 @@ const SocialLinks = () => {
 						<i className="fa fa-facebook-square" />
 					</span>
 				</Button>
-			)}	
+			)}
 			{socialLinks.twitter && (
 				<Button
 					className="btn-icon-only rounded-circle"
