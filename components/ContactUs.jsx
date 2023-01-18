@@ -35,14 +35,14 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log();
+    console.log('Send Email is going here');
 
     emailjs
       .sendForm(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        'service_2e01cgb',
+        'template_15d2jc9',
         form.current,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        'P8B4_Lt7s_FxIhMtY'
       )
       .then(
         (result) => {

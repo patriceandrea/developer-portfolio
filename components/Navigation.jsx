@@ -83,40 +83,6 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
-
-								{/* 
-								{socialLinks.github && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Github"
-											className="nav-link-icon"
-											href={socialLinks.github}
-											target="_blank"
-										>
-											<i className="fa fa-github" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Github
-											</span>
-										</NavLink>
-									</NavItem>
-								)}
-								{socialLinks.linkedin && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Linkedin"
-											className="nav-link-icon"
-											href={socialLinks.linkedin}
-											target="_blank"
-										>
-											<i className="fa fa-linkedin" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Linkedin
-											</span>
-										</NavLink>
-									</NavItem>
-								)} */}
 								{skillsSection.title && (
 									<NavItem>
 										<NavLink
@@ -124,7 +90,7 @@ const Navigation = () => {
 											aria-label="Github"
 											className="nav-link-icon"
 											href="#skills"
-											smooth
+											smooth="true"
 										>
 											<p>{skillsSection.title}</p>
 										</NavLink>
@@ -137,7 +103,7 @@ const Navigation = () => {
 											aria-label="Github"
 											className="nav-link-icon"
 											href="#projects"
-											smooth
+											smooth="true"
 										>
 											<p>Projects</p>
 										</NavLink>
@@ -150,7 +116,7 @@ const Navigation = () => {
 											aria-label="Github"
 											className="nav-link-icon"
 											href="#education"
-											smooth
+											smooth="true"
 										>
 											<p>Education</p>
 										</NavLink>
@@ -163,7 +129,7 @@ const Navigation = () => {
 											aria-label="Github"
 											className="nav-link-icon"
 											href="#experience"
-											smooth
+											smooth="true"
 										>
 											<p>Experience</p>
 										</NavLink>
@@ -176,7 +142,7 @@ const Navigation = () => {
 											aria-label="Github"
 											className="nav-link-icon"
 											href="#contact"
-											smooth
+											smooth="true"
 										>
 											<p>Contact</p>
 										</NavLink>
