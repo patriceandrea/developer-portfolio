@@ -58,7 +58,7 @@ export const ContactUs = () => {
 
   return (
     <>
-      <section className="section section-lg section-shaped" id="contact">
+      <section className="section section-lg section-shaped">
         <form ref={form} onSubmit={sendEmail}>
           {alert && (
             <Alert

@@ -8,7 +8,7 @@ import ContactUs from "./ContactUs";
 
 const GithubProfileCard = ({ prof }) => {
 	return (
-		<Card className="section-lg bg-gradient-info shadow-lg border-0">
+		<Card className="section-lg bg-gradient-info shadow-lg border-0" id="contact">
 			<Container className="">
 				<div className="p-2">
 					<Row className="">

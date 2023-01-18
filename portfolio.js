@@ -240,13 +240,13 @@ export const projects = [
 		name: "yelpCamp",
 		desc: "An application where users can share and review campgrounds. An interactive map to view each campground using MapBox. Tech Stack: Node, Express, MapBox, Mongoose.",
 		display: "/gif/yelpcamp-homepage.gif",
-		github: "https://github.com/1hanzla100/django-react-forum",
+		github: "https://github.com/patriceandrea/yelpCamp",
 	},
 	{
 		name: "TinyApp 2.0",
 		desc: "React Application that shortens long URLs. Tech Stack: React, Node, Express, Postgres, TypeScript, Material-UI. ",
 		display: "/gif/tinyapp-2.0.gif",
-		github: "https://github.com/patriceandrea/yelpCamp",
+		github: "https://github.com/patriceandrea/tinyapp-2.0",
 	},
 	{
 		name: "Thera-Match",
