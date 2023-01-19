@@ -277,9 +277,9 @@ export const seoData = {
 	title: "Patrice Pavico",
 	description:
 		"A passionate and dedicated Junior Full Stack Web Developer looking for her next opportunity in software development.",
-	author: "Hanzla Tauqeer",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	author: "Patrice Pavico",
+	image: "/img/icons/common/profile.jpg",
+	url: "https://patricepavico-portfolio.vercel.app/",
 	keywords: [
 		"Patrice",
 		"Patrice Pavico",
