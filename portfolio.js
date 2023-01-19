@@ -5,7 +5,7 @@ export const greetings = {
 	image: "/img/icons/common/coding.png",
 	title: "Hello, My name is Patrice. Welcome to my Portfolio!",
 	description:
-		"I'm a dedicated Full Stack web developer with a background in medical laboratory. I have experience with web applications with Javascript, NodeJS, Express, React.js, and SQL.",
+		"I'm a driven Full Stack Web Developer with a background in medical laboratory. I have experience building web applications with Javascript, NodeJS, Express, React.js, Postgres, and much more!",
 	resumeLink:
 		"https://resume.creddle.io/resume/gvdpcovwyzl",
 };
@@ -26,7 +26,7 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "Skills",
 	subTitle:
-		"JUNIOR FULL STACK DEVELOPER READY TO LEARN AND EXPLORE EVERY TECH STACK",
+		"READY TO LEARN AND EXPLORE EVERY TECH STACK",
 	data: [
 		{
 			title: "Programming Languages",
@@ -189,7 +189,7 @@ export const educationInfo = [
 		subHeader: "Diploma in Web Development",
 		duration: "March 2022 - May 2022",
 		descBullets: [
-			"A 3-month coding bootcamp specialized in web development",
+			" 12-week coding bootcamp specialized in web development",
 		],
 	},
 	{
@@ -206,14 +206,14 @@ export const experience = [
 		company: "Jewish General Hospital",
 		companylogo: "/img/icons/common/jgh.jpg",
 		date: "December 2018 – March 2022",
-		desc: "I worked as medical technologist in the Pathology & Cytology Department.",
+		desc: "I worked as Medical Technologist in the Pathology & Cytology Department.",
 	},
 	{
 		role: "Medical Technologist/Phlebotomist",
 		company: "Mcgill University of Montreal",
 		companylogo: "/img/icons/common/muhc.png",
 		date: "June 2018 – December 2018",
-		desc: "I worked as a medical technologist at the test center where I drew blood from patients.",
+		desc: "I worked as a Medical Technologist at the test center where I drew blood from patients.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
