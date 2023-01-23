@@ -206,7 +206,7 @@ export const experience = [
 		company: "Jewish General Hospital",
 		companylogo: "/img/icons/common/jgh.jpg",
 		date: "December 2018 – March 2022",
-		desc: "I worked as Medical Technologist in the Pathology & Cytology Department.",
+		desc: "I worked closely with the Laboratory Information Systems team to develop analytic programs using Oracle Database and Tableau Data Visualization in the Pathology & Cytology Department.",
 	},
 	{
 		role: "Medical Technologist/Phlebotomist",
