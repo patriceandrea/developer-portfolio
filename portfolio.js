@@ -189,7 +189,7 @@ export const educationInfo = [
 		subHeader: "Diploma in Web Development",
 		duration: "March 2022 - May 2022",
 		descBullets: [
-			" 12-week coding bootcamp specialized in web development",
+			" An immersive coding bootcamp specialized in web development",
 		],
 	},
 	{
